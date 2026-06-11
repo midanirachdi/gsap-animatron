@@ -1,4 +1,5 @@
 # Dependencies (Yarn 4, node-modules linker)
+.yarn/
 node_modules/
 
 # Vite production build
