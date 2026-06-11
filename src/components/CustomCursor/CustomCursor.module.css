@@ -1,0 +1,20 @@
+.cursor {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+    border-radius: 50%;
+    background-color: var(--cursor-color);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--cursor-color) 50%, transparent);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .cursor {
+        display: block;
+    }
+}

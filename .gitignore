@@ -1,0 +1,19 @@
+# Dependencies (Yarn 4, node-modules linker)
+node_modules/
+
+# Vite production build
+dist/
+
+# Local env overrides (.env.local, .env.*.local, etc.)
+*.local
+
+# Package manager and runtime logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# macOS folder metadata
+.DS_Store
+
+# JetBrains IDEs
+.idea/

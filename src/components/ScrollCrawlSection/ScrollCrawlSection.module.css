@@ -1,0 +1,33 @@
+.scrollCrawl {
+    width: 100%;
+}
+
+.scene {
+    display: grid;
+    place-items: center;
+    grid-auto-flow: row;
+    gap: var(--scene-gap);
+    min-height: 100dvh;
+    padding-block: 6%;
+    overflow-x: clip;
+}
+
+.box3 {
+    background-color: var(--box-3);
+}
+
+.text {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 10%;
+    color: #ffe81f;
+    font-family: 'Franklin Gothic Medium', 'Arial Black', sans-serif;
+    font-size: clamp(36px, 4vw, 90px);
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    text-align: justify;
+    transform: rotateX(var(--crawl-tilt));
+    transform-origin: 50% 100%;
+}

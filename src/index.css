@@ -1,0 +1,34 @@
+:root {
+    color-scheme: light dark;
+    font:
+        18px/144% system-ui,
+        'Segoe UI',
+        Roboto,
+        sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --layout-gap: 20px;
+    --scene-gap: 40px;
+    --box-size: 100px;
+    --box-radius: 10px;
+    --box-1: #2dd4bf;
+    --box-2: #fb923c;
+    --box-3: #60a5fa;
+    --box-text: #0f172a;
+    --crawl-tilt: 24deg;
+    --cursor-size: 24px;
+    --cursor-color: #7c3aed;
+}
+
+body {
+    margin: 0;
+    overflow-x: clip;
+}
+
+#root {
+    min-height: 100dvh;
+    overflow-x: clip;
+}

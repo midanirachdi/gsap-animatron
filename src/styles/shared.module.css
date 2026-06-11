@@ -1,0 +1,15 @@
+.stack {
+    display: grid;
+    grid-auto-flow: row;
+    gap: var(--layout-gap);
+    place-items: center;
+}
+
+.box {
+    display: grid;
+    place-items: center;
+    width: var(--box-size);
+    height: var(--box-size);
+    border-radius: var(--box-radius);
+    color: var(--box-text);
+}

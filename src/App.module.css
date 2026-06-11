@@ -1,0 +1,15 @@
+.app,
+.appMain {
+    display: grid;
+    grid-auto-flow: row;
+    gap: var(--layout-gap);
+}
+
+.app {
+    width: 100%;
+    min-height: 100%;
+}
+
+.appMain {
+    width: 100%;
+}
